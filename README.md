@@ -57,6 +57,6 @@ tabLayout.addTab( tabLayout.newTab().setText("현재위치") );
 // 1. 페이저 리스너 : 페이저가 변경되었을때 탭을 바꿔주는 리스너
 viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
 
-// 2. 탭 리스너 : 탭이 변경되었을 때 페이지를 바꿔저는 리스너
+// 2. 탭 리스너 : 탭이 변경되었을 때 페이지를 바꿔주는 리스너
 tabLayout.addOnTabSelectedListener(new TabLayout.ViewPagerOnTabSelectedListener(viewPager));
 ```
